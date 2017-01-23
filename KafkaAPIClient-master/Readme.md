@@ -31,6 +31,8 @@ Producer idempotence could be done automatically and much more cheaply by option
 The existing high-level consumer doesn't expose a lot of the more fine grained control of offsets (e.g. to reset your position). We will be working on that soon
 
 
+https://dzone.com/articles/kafka-clients-at-most-once-at-least-once-exactly-o
+
 ---------------------------------------------------------------------------------------------
 Read more about message delivery in kafka:
 
