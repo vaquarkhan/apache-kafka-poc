@@ -1,5 +1,6 @@
+vaquar khan
 
-Compile the code using  -vaquar khan
+Compile the code using  
 
 mvn compile assembly:single
 
