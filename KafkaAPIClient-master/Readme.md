@@ -41,7 +41,11 @@ Probably you are looking for "exactly once delivery" like in jms
 
 https://cwiki.apache.org/confluence/display/KAFKA/FAQ#FAQ-HowdoIgetexactly-oncemessagingfromKafka?
 
+
+
 There are two approaches to getting exactly once semantics during data production: 1. Use a single-writer per partition and every time you get a network error check the last message in that partition to see if your last write succeeded 2. Include a primary key (UUID or something) in the message and deduplicate on the consumer.
+
+
 -------------------------------------------------------------------------------------------
 http://ben.kirw.in/2014/11/28/kafka-patterns/
 
