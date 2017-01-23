@@ -16,8 +16,8 @@ http://www.slideshare.net/JiangjieQin/handle-large-messages-in-apache-kafka-5869
 
 How do I get exactly-once messaging from Kafka?
 
-Exactly once semantics has two parts: avoiding duplication during data production and avoiding duplicates during data consumption.
 
+Exactly once semantics has two parts: avoiding duplication during data production and avoiding duplicates during data consumption.
 There are two approaches to getting exactly once semantics during data production:
 
 Use a single-writer per partition and every time you get a network error check the last message in that partition to see if your last write succeeded
