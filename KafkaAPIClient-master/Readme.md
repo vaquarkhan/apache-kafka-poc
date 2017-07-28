@@ -12,6 +12,9 @@ https://sookocheff.com/post/kafka/kafka-in-a-nutshell/
 
 http://www.slideshare.net/JiangjieQin/handle-large-messages-in-apache-kafka-58692297
 
+
+http://blog.cloudera.com/blog/2017/06/offset-management-for-apache-kafka-with-apache-spark-streaming/
+
 --------------------------------------------------------------------------------------
 
 # How do I get exactly-once messaging from Kafka?
