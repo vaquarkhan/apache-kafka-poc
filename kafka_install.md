@@ -123,3 +123,9 @@ This returns:
 
 The original topic has no replicas and is on server 0, which was the only server in our cluster when we created it. 
 
+
+
+
+
+
+https://www.confluent.io/blog/put-several-event-types-kafka-topic/
